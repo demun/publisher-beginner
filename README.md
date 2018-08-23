@@ -1,3 +1,5 @@
-# publisher-beginner
+# 프론트엔드개발의 프로젝트 자동화도구 Grunt,Bower,Yeoman
 
-퍼블리셔 초급
+<br>
+
+[![frontend](html/images/frontend.jpg)](html/index.html)
