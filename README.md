@@ -1,6 +1,1 @@
-# publisher-beginner
-
-
-퍼블리셔 초급 과정입니다.
-
-
+<script type="text/javascript"> location.href="html/others/index.html"; </script>
