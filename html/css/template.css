@@ -17,6 +17,8 @@ ul { line-height: 1.6; }
 /*ul ul { margin-top: 0;}*/
 a, a:link, a:visited { color: #06f; text-decoration: none; }
 a[href^="javascript"] { color: #1F4071; }
+/* 공통클래스 */
+.clearfix::after { content: ""; display: table; clear: both; }
 /* 커스텀테이블 */
 .table {width:100%; border-collapse: collapse; }
 .table thead th { background-color: #eee; }
