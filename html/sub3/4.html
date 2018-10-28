@@ -281,74 +281,7 @@
             </details>
         </div>
         <div class="content-wrap">
-            <h2 id="04-">04.패키지 등록하기</h2>
-            <p>자신이 만든 플러그인과 같은 패키지를 Bower 에 등록할 수 있습니다.</p>
-            <p>제가 사용할려고 만들어놓은 패키지를 한번 보겠습니다.</p>
-            <p>클릭하면 타켓으로 부드럽게 이동하는 jquery-smooth-move 입니다.</p>
-            <p>
-                <img src="../images/demun-620.jpg" alt="jquery-smooth-move">
-                <code>demun-620.jpg</code></p>
-            <p>나눔고딕 웹폰트가 없어서 구글웹폰트를 bower 에서 사용할려고 올려놓은 나눔고딕 웹폰트 입니다.</p>
-            <p>
-                <img src="../images/demun-621.jpg" alt="NanumGothic">
-                <code>demun-621.jpg</code></p>
-            <p>공개저장소인 깃저장소에 필요한 파일들을 올리고 바우어에 등록하기만 하면 됩니다. 등록후에도 계속해서 수정 및 추가해서 커밋을 하면 자동으로 관리가 됩니다.</p>
-            <p>바우어에 등록할 깃저장소부터 만들어보겠습니다.</p>
-            <p>
-                <br />
-            </p>
-            <h3 id="1-">1.깃저장소 만들기</h3>
-            <p>저는 바우어에 올릴 테스트 저장소를 만들겠습니다. 이름은 <code>bower-register</code> 라고 지었습니다. 아래 이미지처럼 체크하고 <code>Create repository</code> 를 클릭하면 저장소가 만들어집니다.</p>
-            <p>
-                <img src="../images/demun-622.jpg" alt="bower">
-                <code>demun-622.jpg</code></p>
-            <p>저장소의 처음 모습입니다. 현재는 <code>README.md</code> 파일밖에 없습니다.</p>
-            <p>
-                <img src="../images/demun-623.jpg" alt="bower">
-                <code>demun-623.jpg</code></p>
-            <p>우측 하단에 <code>Clone or download</code> 버튼을 클릭하고 <code>Copy to clipboard</code> 를 클릭해서 주소를 복사합니다.</p>
-            <p>
-                <img src="../images/demun-624.jpg" alt="bower">
-                <code>demun-624.jpg</code></p>
-            <p><code>git clone 주소</code> 를 해서 내 컴퓨터로 복사해옵니다.</p>
-            <p>
-                <img src="../images/demun-625.jpg" alt="bower">
-                <code>demun-625.jpg</code></p>
-            <p>현재는 <code>README</code> 파일밖에 없습니다.</p>
-            <p>
-                <img src="../images/demun-626.jpg" alt="bower">
-                <code>demun-626.jpg</code></p>
-            <p>등록할 파일을 모두 여기에 놓습니다.</p>
-            <p>저는 <code>README</code> 파일은 패키지에 필요한 정보를 입력합니다.</p>
-            <p>이제 bower 등록에 필요할 <code>bower.json</code> 을 만듭니다. bower 에 등록하려면 <code>bower.json</code> 은 필수입니다.</p>
-            <p>해당 폴더에서 <code>power shell</code> 이나 <code>cmd</code> 명령창을 열어서 <code>bower init</code> 명령어를 입력해서 <code>bower.json</code> 을 만듭니다.</p>
-            <p>수정할것은 수정하고 깃저장소에서 클론을 해서 기본정보는 자동으로 입력되어 나옵니다.</p>
-            <p>
-                <img src="../images/demun-627.jpg" alt="bower">
-                <code>demun-627.jpg</code></p>
-            <p>이제 추가할 파일들을 모두 추가합니다. 파일들이 모두 준비가 되었다면 깃저장소에 올립니다.</p>
-            <p>아래 명령을 순서대로 입력해서 원격저장소에 올립니다.</p>
-            <pre><code class="lang-sh"># git 에 모든파일(.)을 수정했다고 알려줍니다.
-git add .
-# 커밋 메시지를 입력하고 커밋합니다.
-git commit -m &#39;first commit&#39;
-# git push origin master 를 줄여서 아래처럼 입력해도 됩니다.
-# 로컬저장소의 내용을 원격저장소에 업로드합니다.
-git push
-</code></pre>
-            <p>모든 파일이 원격저장소에 잘 업로드되었습니다.</p>
-            <p>
-                <img src="../images/demun-628.jpg" alt="bower">
-                <code>demun-628.jpg</code></p>
-            <p>깃저장소에 모두 올렸다면 바우어에 등록해야 합니다.</p>
-            <pre><code class="lang-sh"># bower register &lt;패키지이름&gt; &lt;깃저장소주소&gt;
-# 지금 저장소의 경우는 아래와 같습니다.
-bower register bower-register https://github.com/demun/bower-register
-</code></pre>
-            <p>성공적으로 잘 등록이 되었습니다.</p>
-            <p>이제 수정하거나 추가할파일이 있으면 그대로 깃저장소에 올리기만 하면 됩니다. 따로 bower 에 알리지 않아도 알아서 관리를 합니다.</p>
-            <p>이제 여러분들도 여러분의 패키지를 공유해보세요.</p>
-            <p>이 저장소의 주소는 <a href="https://github.com/demun/bower-register">https://github.com/demun/bower-register</a> 입니다.</p>
+            <h2 id="css3-">CSS3 와 애니메이션</h2>
         </div>
     </div>
     <!-- <div class="container">
